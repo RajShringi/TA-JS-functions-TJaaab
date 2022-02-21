@@ -56,6 +56,8 @@ function calc(numA, numB, operation) {
       return `mul: ${numA * numB}`;
     case "div":
       return `div: ${numA / numB}`;
+    default:
+      alert("Enter Valid Input");
   }
 }
 /*
