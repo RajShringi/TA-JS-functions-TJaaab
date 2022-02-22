@@ -16,10 +16,7 @@ function minToSec(min) {
   return min * 60;
 }
 // - Execute the function with required parameter
-function minToSec(min = 1) {
-  // Your code
-  return min * 60;
-}
+minToSec(8);
 /* 2. 
 Create a function named isInRange which validates whether a number n is exclusively within the bounds of lower and upper.
 Return true and false based on that.
@@ -39,14 +36,7 @@ function isInRange(lower, upper, number) {
   }
 }
 // - Execute the function with required parameter
-function isInRange(lower = 1, upper = 1, number = 1) {
-  // Your code
-  if (number >= lower && number <= upper) {
-    return true;
-  } else {
-    return false;
-  }
-}
+isInRange(1, 10, 19);
 /* 2. calculateBMI
 
 
